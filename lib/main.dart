@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      title: 'Flutter FormBuilder Demo',
+      title: 'Flutter FormBuilder Pablo',
       debugShowCheckedModeBanner: false,
       localizationsDelegates: [
         FormBuilderLocalizations.delegate,
@@ -35,7 +35,7 @@ class _HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return CodePage(
-      title: 'Flutter Form Builder',
+      title: 'Flutter Form Pablo',
       child: ListView(
         children: <Widget>[
           ListTile(
