@@ -85,7 +85,7 @@ class _Form1 extends State<Form1> {
                     FormBuilderCheckboxGroup<String>(
                       autovalidateMode: AutovalidateMode.onUserInteraction,
                       decoration: const InputDecoration(
-                          labelText: 'Selecciona la velociad del vehículo'),
+                          labelText: 'Selecciona la velocidad del vehículo'),
                       name: 'Velocidad',
                       options: const [
                         FormBuilderFieldOption(value: '20km/h'),
